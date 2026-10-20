@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="100%" height="100%" fill="none">
+  <!-- Walking Couple Silhouette - Raden & Anindya (Side Profile Hand-in-Hand) -->
+  <defs>
+    <linearGradient id="walkGroomSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#272C35"/>
+      <stop offset="100%" stop-color="#14171C"/>
+    </linearGradient>
+    <linearGradient id="walkBrideGown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#EBE3D5"/>
+    </linearGradient>
+    <linearGradient id="walkVeil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FBF9F5" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="walkGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#EADBC8"/>
+    </linearGradient>
+    <filter id="shadowSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#121417" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadowSoft)">
+    <!-- Groom: Walking forward (Left figure) -->
+    <!-- Head & Hair Profile -->
+    <ellipse cx="112" cy="78" rx="16" ry="19" fill="#1C1F24"/>
+    <path d="M106 72C106 58 122 55 130 68C132 80 126 95 118 95C110 95 106 85 106 72Z" fill="#1C1F24"/>
+    <!-- Gentle Jawline Profile Facing Right -->
+    <path d="M115 88L126 89L124 98L114 97Z" fill="#E8D5C4"/>
+    
+    <!-- Groom Body & Tailored Coat (Leaning into walk) -->
+    <path d="M88 125C92 105 110 98 126 102C138 105 146 118 142 145L138 215C136 225 115 228 102 225L88 145C86 138 86 130 88 125Z" fill="url(#walkGroomSuit)"/>
+    <path d="M118 104L124 135L110 132Z" fill="#FBF9F5"/>
+    <polygon points="119,112 124,115 122,118 117,115" fill="#0C0D0E"/>
+    
+    <!-- Groom Back Leg (Pushed back in mid-stride) -->
+    <path d="M96 220L78 310L68 375L86 380L102 315L112 225Z" fill="#181B20"/>
+    <!-- Groom Front Leg (Advancing forward) -->
+    <path d="M120 220L135 305L145 372L165 375L150 300L134 220Z" fill="#242932"/>
+    <!-- Shoes -->
+    <path d="M64 374L88 378L84 388L58 385Z" fill="#0C0D0E"/>
+    <path d="M142 372L170 374L166 385L138 382Z" fill="#0C0D0E"/>
+
+    <!-- Interlocking Joined Hands at Center -->
+    <path d="M135 145C140 160 152 178 165 185C168 188 174 186 172 180C165 170 155 155 148 142Z" fill="#242932"/>
+    <circle cx="168" cy="184" r="5" fill="#E8D5C4"/>
+    <circle cx="168" cy="184" r="3" fill="url(#walkGold)"/>
+
+    <!-- Bride: Walking forward in Harmony (Right figure) -->
+    <!-- Translucent Veil Flowing in Breeze behind Bride -->
+    <path d="M208 85C185 105 160 185 145 270C180 260 215 210 225 145C230 115 225 90 208 85Z" fill="url(#walkVeil)"/>
+
+    <!-- Bride Head & Elegant Chignon Updo -->
+    <ellipse cx="204" cy="85" rx="14" ry="17" fill="#F9ECE1"/>
+    <circle cx="198" cy="78" r="15" fill="#201C1B"/>
+    <ellipse cx="192" cy="76" rx="8" ry="11" fill="#201C1B"/>
+    <!-- Gold Tiara Spark -->
+    <circle cx="202" cy="69" r="2.5" fill="#C5A880"/>
+
+    <!-- Bride Slender Arm holding Groom's Hand -->
+    <path d="M198 125C190 142 178 165 168 183C165 185 168 189 172 187C184 172 196 150 204 130Z" fill="#F0DDD0"/>
+
+    <!-- Flowing Haute Couture Silk Gown (Graceful Flare & Train) -->
+    <path d="M192 120C198 115 215 118 220 128C224 136 218 155 214 180L210 230C215 270 240 325 265 385H170C185 340 195 285 198 230L196 175C192 155 188 135 192 120Z" fill="url(#walkBrideGown)"/>
+    
+    <!-- Gown Back Train Fluting -->
+    <path d="M210 230C230 290 260 345 285 390H255C235 345 210 290 198 230Z" fill="#E8DEC8"/>
+    <path d="M170 385C200 380 235 380 275 390C240 392 205 390 170 385Z" fill="#D8CEBD" opacity="0.6"/>
+
+    <!-- Subtle Grounding Shadow below Walk -->
+    <ellipse cx="160" cy="392" rx="110" ry="8" fill="#1E232A" fill-opacity="0.12"/>
+  </g>
+</svg>
