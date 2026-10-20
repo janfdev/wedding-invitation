@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <title>Logo Concept WA: Royal Ligature Monogram</title>
+  <!-- Background Circle Seal -->
+  <circle cx="128" cy="128" r="116" stroke="#C5A880" stroke-width="2" stroke-opacity="0.4"/>
+  <circle cx="128" cy="128" r="108" stroke="#C5A880" stroke-width="1" stroke-dasharray="4 4" stroke-opacity="0.3"/>
+  
+  <!-- Interlocking R and A Luxury Editorial Ligature -->
+  <!-- Stem R -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M68 64H128C152.3 64 172 83.7 172 108C172 126.5 160.5 142.3 144.3 148.8L176 192H148L120.8 152H92V192H68V64ZM92 86V130H128C140.15 130 150 120.15 150 108C150 95.85 140.15 86 128 86H92Z" fill="#1E232A"/>
+  
+  <!-- Arch of A flowing gracefully behind and through R -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M140 64L196 192H170L158 164H118L128 140H148L140 120L128 92L140 64Z" fill="#C5A880"/>
+  
+  <!-- Center Heart & Unity Diamond Core -->
+  <path d="M128 108L132 114L128 120L124 114L128 108Z" fill="#C5A880"/>
+  <circle cx="128" cy="46" r="4" fill="#C5A880"/>
+  <circle cx="128" cy="210" r="4" fill="#C5A880"/>
+</svg>

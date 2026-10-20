@@ -55,11 +55,14 @@ export function EnvelopeGate({ onOpen }: EnvelopeGateProps) {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="relative z-10 w-full max-w-md mx-4 p-8 sm:p-10 rounded-2xl bg-[#FBF9F5] text-[#1E232A] text-center shadow-2xl border border-[#C5A880]/30"
       >
-        {/* Top Monogram Seal */}
-        <div className="mx-auto w-16 h-16 rounded-full bg-[#1E232A] flex items-center justify-center shadow-inner border-2 border-[#C5A880] mb-6">
-          <span className="font-serif text-2xl font-bold tracking-widest text-[#EADBC8]">
-            RA
-          </span>
+        {/* Top Monogram Seal using Vector WA */}
+        <div className="mx-auto w-20 h-20 rounded-full bg-[#1E232A] flex items-center justify-center shadow-lg border-2 border-[#C5A880] mb-6 p-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/concept-wa-royal-ligature.svg"
+            alt="Royal Monogram RA"
+            className="w-full h-full object-contain filter invert-[0.9] hue-rotate-180"
+          />
         </div>
 
         <p className="text-xs uppercase tracking-[0.25em] font-medium text-[#6B7B6E] mb-2">

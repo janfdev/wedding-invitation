@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <title>Logo Concept WC: Classical Heritage Wax Seal</title>
+  <!-- Circular Seal Base in Deep Charcoal -->
+  <circle cx="128" cy="128" r="108" fill="#1E232A"/>
+  
+  <!-- Outer Gold Laurel Halo -->
+  <circle cx="128" cy="128" r="96" stroke="#C5A880" stroke-width="2"/>
+  <circle cx="128" cy="128" r="90" stroke="#C5A880" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Outlined Geometric Serif R Letterform -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M78 84H114C128.36 84 140 95.64 140 110C140 120.9 133.2 130.2 123.6 134L144 172H126L108 136H94V172H78V84ZM94 98V122H114C120.63 122 126 116.63 126 110C126 103.37 120.63 98 114 98H94Z" fill="#EADBC8"/>
+  
+  <!-- Outlined Geometric Serif A Letterform -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M148 172L178 84H194L224 172H206L199 152H173L166 172H148ZM178 138H194L186 112L178 138Z" fill="#C5A880"/>
+  
+  <!-- Botanical Olive Leaf Anchor at Bottom -->
+  <path d="M128 186C138 180 148 184 144 192C140 200 128 194 128 186Z" fill="#6B7B6E"/>
+  <path d="M128 186C118 180 108 184 112 192C116 200 128 194 128 186Z" fill="#6B7B6E"/>
+</svg>

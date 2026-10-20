@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <title>Logo Concept WB: Infinity Ribbon Ring</title>
+  <!-- Outer Harmony Halo as expanded path -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M128 14C190.96 14 242 65.04 242 128C242 190.96 190.96 242 128 242C65.04 242 14 190.96 14 128C14 65.04 65.04 14 128 14ZM128 18C188.75 18 238 67.25 238 128C238 188.75 188.75 238 128 238C67.25 238 18 188.75 18 128C18 67.25 67.25 18 128 18Z" fill="#C5A880"/>
+  
+  <!-- Intertwining Endless Love Knot forming R and A with exact 60-degree precision -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M104 64H64V192H88V148H104L130 192H156L126 142C138 135 146 122 146 106C146 83 127 64 104 64ZM88 84H104C116 84 125 93 125 106C125 119 116 128 104 128H88V84Z" fill="#1E232A"/>
+  
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M168 64H192L148 192H124L156 100H132V80H163.5L168 64Z" fill="#C5A880"/>
+  
+  <!-- Emerald Botanical Olive Accent Leaf -->
+  <path d="M128 48C136 40 148 44 144 54C140 64 128 56 128 48Z" fill="#6B7B6E"/>
+  <path d="M128 48C120 40 108 44 112 54C116 64 128 56 128 48Z" fill="#6B7B6E"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+      <rect width="600" height="600" fill="#121417"/>
+      <rect x="50" y="50" width="500" height="500" rx="36" fill="#1E232A" stroke="#C5A880" stroke-opacity="0.25" stroke-width="1.5"/>
+      
+      <!-- Logo Marks Layer (Centered 256x256 inside card) -->
+      <g transform="translate(172, 140)">
+        
+  <title>Logo Concept WB: Infinity Ribbon Ring</title>
+  <!-- Outer Harmony Halo as expanded path -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M128 14C190.96 14 242 65.04 242 128C242 190.96 190.96 242 128 242C65.04 242 14 190.96 14 128C14 65.04 65.04 14 128 14ZM128 18C188.75 18 238 67.25 238 128C238 188.75 188.75 238 128 238C67.25 238 18 188.75 18 128C18 67.25 67.25 18 128 18Z" fill="#C5A880"/>
+  
+  <!-- Intertwining Endless Love Knot forming R and A with exact 60-degree precision -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M104 64H64V192H88V148H104L130 192H156L126 142C138 135 146 122 146 106C146 83 127 64 104 64ZM88 84H104C116 84 125 93 125 106C125 119 116 128 104 128H88V84Z" fill="#FAFAFA"/>
+  
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M168 64H192L148 192H124L156 100H132V80H163.5L168 64Z" fill="#C5A880"/>
+  
+  <!-- Emerald Botanical Olive Accent Leaf -->
+  <path d="M128 48C136 40 148 44 144 54C140 64 128 56 128 48Z" fill="#6B7B6E"/>
+  <path d="M128 48C120 40 108 44 112 54C116 64 128 56 128 48Z" fill="#6B7B6E"/>
+
+      </g>
+      
+      <!-- Label -->
+      <text x="300" y="460" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="700" fill="#FBF9F5" text-anchor="middle" letter-spacing="0.05em">Concept WB: Infinity Harmony Ring</text>
+      <text x="300" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#C5A880" text-anchor="middle" letter-spacing="0.12em">WEDDING MONOGRAM · PURE VECTOR SVG</text>
+    </svg>

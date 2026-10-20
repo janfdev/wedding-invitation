@@ -8,10 +8,13 @@ export function FooterSection() {
     <footer className="py-20 px-6 bg-[#1E232A] text-[#FBF9F5] text-center relative overflow-hidden border-t border-[#C5A880]/30">
       <div className="max-w-2xl mx-auto">
         {/* Monogram Seal */}
-        <div className="w-14 h-14 rounded-full border border-[#C5A880] mx-auto flex items-center justify-center mb-6 shadow-inner">
-          <span className="font-serif text-xl font-bold tracking-widest text-[#EADBC8]">
-            RA
-          </span>
+        <div className="w-16 h-16 rounded-full border border-[#C5A880]/60 mx-auto flex items-center justify-center mb-6 shadow-md bg-[#121417] p-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/concept-wa-royal-ligature.svg"
+            alt="Royal Monogram RA"
+            className="w-full h-full object-contain filter invert-[0.9] hue-rotate-180"
+          />
         </div>
 
         <h3 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-[#FBF9F5] mb-4">

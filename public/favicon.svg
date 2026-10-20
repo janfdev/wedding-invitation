@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <title>The Wedding of Raden &amp; Anindya - White Favicon</title>
+  <!-- Dark Circular Base Tile -->
+  <rect width="256" height="256" rx="56" fill="#121417"/>
+  
+  <!-- Outer Halo Ring -->
+  <circle cx="128" cy="128" r="104" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.9"/>
+  
+  <!-- Interlocking R and A in Crisp Pure White & Champagne Gold -->
+  <!-- Stem & Bowl of R in Pure White -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M68 64H128C152.3 64 172 83.7 172 108C172 126.5 160.5 142.3 144.3 148.8L176 192H148L120.8 152H92V192H68V64ZM92 86V130H128C140.15 130 150 120.15 150 108C150 95.85 140.15 86 128 86H92Z" fill="#FFFFFF"/>
+  
+  <!-- Arch of A in Champagne Gold -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M140 64L196 192H170L158 164H118L128 140H148L140 120L128 92L140 64Z" fill="#C5A880"/>
+  
+  <!-- Core Diamond & Accents -->
+  <path d="M128 108L132 114L128 120L124 114L128 108Z" fill="#FFFFFF"/>
+  <circle cx="128" cy="50" r="4.5" fill="#C5A880"/>
+  <circle cx="128" cy="206" r="4.5" fill="#C5A880"/>
+</svg>
