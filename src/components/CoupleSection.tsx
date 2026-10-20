@@ -36,21 +36,25 @@ export function CoupleSection() {
           <div className="w-12 h-0.5 bg-[#C5A880] mx-auto mt-4" />
         </div>
 
-        {/* Couple Profile Cards Grid */}
+        {/* Couple Profile Cards Grid with Bespoke Fine Art Illustrations */}
         <div className="grid md:grid-cols-2 gap-10 sm:gap-14 items-center">
           {/* Groom Card */}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col items-center text-center p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/20 shadow-md"
+            className="flex flex-col items-center text-center p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md group hover:shadow-xl transition-all"
           >
-            {/* Avatar Frame with Monogram Initials */}
-            <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-[#C5A880] to-[#6B7B6E] mb-6 shadow-md">
-              <div className="w-full h-full rounded-full bg-[#1E232A] flex items-center justify-center text-[#EADBC8] font-serif text-3xl font-bold">
-                R
-              </div>
+            {/* Bespoke Fine Art Illustration Frame */}
+            <div className="relative w-48 h-56 rounded-2xl overflow-hidden mb-6 shadow-md border border-[#C5A880]/40 bg-[#181B20] transition-transform group-hover:scale-[1.02]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/illustrations/groom-portrait.svg"
+                alt="Raden Arya Pratama - Mempelai Pria"
+                className="w-full h-full object-cover object-top select-none"
+                draggable={false}
+              />
             </div>
 
             <h3 className="font-serif text-2xl font-bold text-[#1E232A]">
@@ -60,7 +64,7 @@ export function CoupleSection() {
               Mempelai Pria
             </span>
 
-            <p className="text-xs text-zinc-600 max-w-xs leading-relaxed mb-6">
+            <p className="text-xs text-zinc-600 max-w-xs leading-relaxed mb-6 font-light">
               Putra pertama dari pasangan terhormat<br />
               <strong className="text-zinc-800 font-medium">Bpk. Bambang Wijaya</strong><br />
               & <strong className="text-zinc-800 font-medium">Ibu Siti Rahayu</strong>
@@ -83,17 +87,21 @@ export function CoupleSection() {
 
           {/* Bride Card */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
+            initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col items-center text-center p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/20 shadow-md"
+            className="flex flex-col items-center text-center p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md group hover:shadow-xl transition-all"
           >
-            {/* Avatar Frame with Monogram Initials */}
-            <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-[#C5A880] to-[#6B7B6E] mb-6 shadow-md">
-              <div className="w-full h-full rounded-full bg-[#1E232A] flex items-center justify-center text-[#EADBC8] font-serif text-3xl font-bold">
-                A
-              </div>
+            {/* Bespoke Fine Art Illustration Frame */}
+            <div className="relative w-48 h-56 rounded-2xl overflow-hidden mb-6 shadow-md border border-[#C5A880]/40 bg-[#1C1E23] transition-transform group-hover:scale-[1.02]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/illustrations/bride-portrait.svg"
+                alt="Anindya Larasati - Mempelai Wanita"
+                className="w-full h-full object-cover object-top select-none"
+                draggable={false}
+              />
             </div>
 
             <h3 className="font-serif text-2xl font-bold text-[#1E232A]">
@@ -103,7 +111,7 @@ export function CoupleSection() {
               Mempelai Wanita
             </span>
 
-            <p className="text-xs text-zinc-600 max-w-xs leading-relaxed mb-6">
+            <p className="text-xs text-zinc-600 max-w-xs leading-relaxed mb-6 font-light">
               Putri bungsu dari pasangan terhormat<br />
               <strong className="text-zinc-800 font-medium">Bpk. Hendra Gunawan</strong><br />
               & <strong className="text-zinc-800 font-medium">Ibu Ratna Kusuma</strong>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="100%" height="100%" fill="none">
+  <!-- Grand Palace / Estate Architectural Portal -->
+  <defs>
+    <radialGradient id="portalLight" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFDF9" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#FBF9F5" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#EFE8DC" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1E232A" stop-opacity="0.95"/>
+    </radialGradient>
+    <linearGradient id="columnArch" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14171C"/>
+      <stop offset="50%" stop-color="#222831"/>
+      <stop offset="100%" stop-color="#14171C"/>
+    </linearGradient>
+    <linearGradient id="goldFiligree" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="50%" stop-color="#EADBC8"/>
+      <stop offset="100%" stop-color="#A88B63"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Velvet / Charcoal Outer Frame -->
+  <rect width="1440" height="900" fill="#121417"/>
+
+  <!-- Warm Atmospheric Light Radiating from Inner Chamber -->
+  <rect width="1440" height="900" fill="url(#portalLight)"/>
+
+  <!-- Grand Classical Columns Left -->
+  <rect x="0" y="0" width="160" height="900" fill="url(#columnArch)"/>
+  <rect x="156" y="0" width="8" height="900" fill="#C5A880" fill-opacity="0.4"/>
+  <rect x="180" y="40" width="110" height="860" fill="url(#columnArch)"/>
+  <rect x="286" y="40" width="6" height="860" fill="#C5A880" fill-opacity="0.3"/>
+
+  <!-- Grand Classical Columns Right -->
+  <rect x="1280" y="0" width="160" height="900" fill="url(#columnArch)"/>
+  <rect x="1276" y="0" width="8" height="900" fill="#C5A880" fill-opacity="0.4"/>
+  <rect x="1150" y="40" width="110" height="860" fill="url(#columnArch)"/>
+  <rect x="1148" y="40" width="6" height="860" fill="#C5A880" fill-opacity="0.3"/>
+
+  <!-- Grand Cathedral Arch Top -->
+  <path d="M160 0V260C160 520 420 540 720 540C1020 540 1280 520 1280 260V0H160Z" fill="none" stroke="url(#goldFiligree)" stroke-width="3" stroke-opacity="0.5"/>
+  <path d="M220 0V240C220 480 440 500 720 500C1000 500 1220 480 1220 240V0" fill="none" stroke="#C5A880" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="8 6"/>
+
+  <!-- Floor Perspective / Marble Runway Reflection -->
+  <path d="M280 900L560 620H880L1160 900H280Z" fill="#F3ECE0" fill-opacity="0.35"/>
+  <path d="M420 900L620 620H820L1020 900H420Z" fill="#FFFFFF" fill-opacity="0.25"/>
+
+  <!-- Central Chandelier / Celestial Warm Glow -->
+  <circle cx="720" cy="180" r="160" fill="#C5A880" fill-opacity="0.08"/>
+  <circle cx="720" cy="180" r="90" fill="#EADBC8" fill-opacity="0.12"/>
+</svg>

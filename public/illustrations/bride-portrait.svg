@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%" fill="none">
+  <!-- Warm Champagne & Botanical Light Background -->
+  <defs>
+    <radialGradient id="brideGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#EADBC8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1E232A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silkGown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#EFE9DE"/>
+    </linearGradient>
+    <linearGradient id="veilGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FBF9F5" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="goldAccBride" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#F3E5D8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="480" rx="28" fill="#1C1E23"/>
+  <rect width="400" height="480" rx="28" fill="url(#brideGlow)"/>
+
+  <!-- Architectural Frame Lines -->
+  <rect x="24" y="24" width="352" height="432" rx="20" stroke="#C5A880" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="200" cy="180" r="110" stroke="#C5A880" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Translucent Bridal Veil Cascading in Background -->
+  <path d="M140 135C110 200 80 340 70 480H330C320 340 290 200 260 135C240 90 160 90 140 135Z" fill="url(#veilGlow)"/>
+
+  <!-- Haute Couture Wedding Gown -->
+  <path d="M90 480C95 385 130 330 170 310L200 335L230 310C270 330 305 385 310 480H90Z" fill="url(#silkGown)"/>
+  <!-- Sweetheart Neckline Lace Accents -->
+  <path d="M170 310C185 328 200 320 200 320C200 320 215 328 230 310C215 295 185 295 170 310Z" fill="#F4EDE2" stroke="#C5A880" stroke-width="0.8"/>
+
+  <!-- Pearl & Gold Pendant Necklace -->
+  <path d="M182 285C192 300 208 300 218 285" stroke="#C5A880" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="200" cy="296" r="3.5" fill="url(#goldAccBride)"/>
+
+  <!-- Slender Neck & Graceful Jawline -->
+  <path d="M185 245V285H215V245H185Z" fill="#F0DDD0"/>
+  <path d="M174 195C174 245 200 265 200 265C200 265 226 245 226 195V175H174V195Z" fill="#F9ECE1"/>
+
+  <!-- Elegant Bridal Updo Hair & Soft Tendrils -->
+  <path d="M165 180C160 135 180 115 200 115C220 115 240 135 235 180C225 170 215 165 200 165C185 165 175 170 165 180Z" fill="#201C1B"/>
+  <!-- Soft Bun Top -->
+  <ellipse cx="200" cy="115" rx="35" ry="24" fill="#201C1B"/>
+
+  <!-- Intricate Botanical Gold Tiara / Headpiece -->
+  <path d="M172 135C185 125 215 125 228 135" stroke="url(#goldAccBride)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="200" cy="126" r="3" fill="#C5A880"/>
+  <circle cx="188" cy="128" r="2.5" fill="#C5A880"/>
+  <circle cx="212" cy="128" r="2.5" fill="#C5A880"/>
+
+  <!-- Delicate Facial Expression (Editorial Fine Art) -->
+  <path d="M184 204C188 202 193 203 195 206" stroke="#9A7E70" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M205 206C207 203 212 202 216 204" stroke="#9A7E70" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Soft Nose Contour -->
+  <path d="M200 202V222L204 224" stroke="#D1B2A1" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Graceful Soft Peach Rose Lips -->
+  <path d="M192 240C196 238 204 238 208 240C204 246 196 246 192 240Z" fill="#D98A7A"/>
+
+  <!-- Minimalist Gold Seal Monogram at Bottom -->
+  <circle cx="200" cy="435" r="16" fill="#1E232A" stroke="#C5A880" stroke-width="1"/>
+  <text x="200" y="440" font-family="serif" font-size="11" font-weight="bold" fill="#EADBC8" text-anchor="middle" letter-spacing="1">A</text>
+</svg>

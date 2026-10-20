@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%" fill="none">
+  <!-- Warm Studio Light Background Accent -->
+  <defs>
+    <radialGradient id="groomGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C5A880" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1E232A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bespokeSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#272C35"/>
+      <stop offset="100%" stop-color="#14171C"/>
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880"/>
+      <stop offset="100%" stop-color="#EADBC8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="480" rx="28" fill="#181B20"/>
+  <rect width="400" height="480" rx="28" fill="url(#groomGlow)"/>
+
+  <!-- Architectural Background Frame Lines -->
+  <rect x="24" y="24" width="352" height="432" rx="20" stroke="#C5A880" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="200" cy="180" r="110" stroke="#C5A880" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Groom Silhouette & Tailored Tuxedo -->
+  <!-- Shoulders & Coat -->
+  <path d="M70 480C70 380 110 320 160 300L200 325L240 300C290 320 330 380 330 480H70Z" fill="url(#bespokeSuit)"/>
+  <!-- Lapel Left -->
+  <path d="M160 300L185 390L135 345L160 300Z" fill="#2E343E"/>
+  <!-- Lapel Right -->
+  <path d="M240 300L215 390L265 345L240 300Z" fill="#2E343E"/>
+  <!-- Crisp White Dress Shirt V-Neck -->
+  <path d="M185 300L200 360L215 300H185Z" fill="#FBF9F5"/>
+  <!-- Velvet Black Bowtie -->
+  <path d="M188 302L200 309L212 302L210 316L200 311L190 316L188 302Z" fill="#0C0D0E"/>
+  <circle cx="200" cy="309" r="3.5" fill="url(#goldAcc)"/>
+
+  <!-- Boutonniere / Olive & Gold Floral Pin -->
+  <path d="M142 335C136 325 140 315 148 318C152 322 150 330 142 335Z" fill="#6B7B6E"/>
+  <circle cx="148" cy="320" r="3" fill="#C5A880"/>
+
+  <!-- Neck & Jawline -->
+  <path d="M182 250V295H218V250H182Z" fill="#E8D5C4"/>
+  <path d="M170 200C170 250 200 270 200 270C200 270 230 250 230 200V180H170V200Z" fill="#F2E3D5"/>
+
+  <!-- Clean Gentleman Side-Part Hair -->
+  <path d="M162 185C160 140 185 120 215 125C235 128 244 148 240 185C235 175 220 168 200 168C180 168 168 178 162 185Z" fill="#1C1F24"/>
+  <path d="M162 185C160 195 162 215 168 220C170 210 168 195 162 185Z" fill="#1C1F24"/>
+  <path d="M238 185C240 195 238 215 232 220C230 210 232 195 238 185Z" fill="#1C1F24"/>
+
+  <!-- Subtle Eyes & Expression (Minimalist Editorial Line Art) -->
+  <path d="M182 205C186 203 192 204 194 207" stroke="#8C7A6B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M206 207C208 204 214 203 218 205" stroke="#8C7A6B" stroke-width="2" stroke-linecap="round"/>
+  <!-- Refined Nose Bridge -->
+  <path d="M200 204V224L205 226" stroke="#C4A895" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Confident Gentle Smile -->
+  <path d="M190 242C195 245 205 245 210 242" stroke="#A88B7B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Minimalist Gold Seal Monogram at Bottom -->
+  <circle cx="200" cy="435" r="16" fill="#1E232A" stroke="#C5A880" stroke-width="1"/>
+  <text x="200" y="440" font-family="serif" font-size="11" font-weight="bold" fill="#EADBC8" text-anchor="middle" letter-spacing="1">R</text>
+</svg>
