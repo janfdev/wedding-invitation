@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { X, ZoomIn, Camera } from "lucide-react";
+import { X, ZoomIn, Camera, Sparkles } from "lucide-react";
+import SimpleParallax from "simple-parallax-js";
 
 interface GalleryItem {
   id: number;
@@ -91,7 +92,7 @@ export function GallerySection() {
           <div className="w-12 h-0.5 bg-[#C5A880] mx-auto mt-4" />
         </div>
 
-        {/* Gallery Masonry-like Grid */}
+        {/* Gallery Masonry-like Grid with Smooth Inner Parallax */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {GALLERY_ITEMS.map((item, idx) => (
             <motion.div
@@ -112,8 +113,15 @@ export function GallerySection() {
                 }
               }}
             >
+              {/* Parallax Image / Graphic Wrapper */}
+              <div className="w-full h-full overflow-hidden">
+                <SimpleParallax orientation="up" scale={1.2} delay={0.4}>
+                  <div className={`w-full h-full bg-gradient-to-tr ${item.bgGradient} min-h-[300px] flex items-center justify-center`} />
+                </SimpleParallax>
+              </div>
+
               {/* Artistic Photo Mock / Placeholder Graphic */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center text-[#FBF9F5]">
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center text-[#FBF9F5] pointer-events-none">
                 <Camera className="w-8 h-8 text-[#C5A880] mb-3 opacity-80 transition-transform group-hover:scale-110" />
                 <span className="font-serif text-lg font-bold tracking-wide">
                   {item.title}

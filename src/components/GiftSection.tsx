@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Gift, Copy, Check, CreditCard, Package } from "lucide-react";
+import { TiltCard } from "@/components/ui/TiltCard";
 
 export function GiftSection() {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
@@ -31,99 +32,91 @@ export function GiftSection() {
           </p>
         </div>
 
-        {/* Bank & Gift Cards Grid */}
+        {/* Bank & Gift Cards Grid with 3D Tilt from transitions-dev */}
         <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-12">
           {/* Bank BCA Card */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md flex flex-col justify-between"
-          >
-            <div>
-              <div className="flex items-center justify-between mb-6">
-                <span className="font-serif text-2xl font-black text-[#1E232A] tracking-wider">
-                  BCA
+          <TiltCard className="h-full">
+            <div className="p-8 h-full rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-6">
+                  <span className="font-serif text-2xl font-black text-[#1E232A] tracking-wider">
+                    BCA
+                  </span>
+                  <CreditCard className="w-6 h-6 text-[#C5A880]" />
+                </div>
+
+                <span className="text-[11px] text-zinc-500 uppercase tracking-widest block mb-1">
+                  Nomor Rekening
                 </span>
-                <CreditCard className="w-6 h-6 text-[#C5A880]" />
+                <p className="font-mono text-xl sm:text-2xl font-bold text-[#1E232A] tracking-wider mb-2">
+                  8735 0192 84
+                </p>
+                <p className="text-xs text-zinc-600 font-medium">
+                  a.n. Raden Arya Pratama
+                </p>
               </div>
 
-              <span className="text-[11px] text-zinc-500 uppercase tracking-widest block mb-1">
-                Nomor Rekening
-              </span>
-              <p className="font-mono text-xl sm:text-2xl font-bold text-[#1E232A] tracking-wider mb-2">
-                8735 0192 84
-              </p>
-              <p className="text-xs text-zinc-600 font-medium">
-                a.n. Raden Arya Pratama
-              </p>
+              <button
+                type="button"
+                onClick={() => copyToClipboard("8735019284", "bca")}
+                className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#F5F1E9] hover:bg-[#EADBC8]/60 text-[#1E232A] text-xs font-semibold tracking-wide border border-[#C5A880]/30 transition-all cursor-pointer"
+              >
+                {copiedKey === "bca" ? (
+                  <>
+                    <Check className="w-4 h-4 text-emerald-600" />
+                    <span className="text-emerald-700">Nomor Berhasil Disalin!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-4 h-4 text-[#C5A880]" />
+                    <span>Salin Nomor Rekening</span>
+                  </>
+                )}
+              </button>
             </div>
-
-            <button
-              type="button"
-              onClick={() => copyToClipboard("8735019284", "bca")}
-              className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#F5F1E9] hover:bg-[#EADBC8]/60 text-[#1E232A] text-xs font-semibold tracking-wide border border-[#C5A880]/30 transition-all cursor-pointer"
-            >
-              {copiedKey === "bca" ? (
-                <>
-                  <Check className="w-4 h-4 text-emerald-600" />
-                  <span className="text-emerald-700">Nomor Berhasil Disalin!</span>
-                </>
-              ) : (
-                <>
-                  <Copy className="w-4 h-4 text-[#C5A880]" />
-                  <span>Salin Nomor Rekening</span>
-                </>
-              )}
-            </button>
-          </motion.div>
+          </TiltCard>
 
           {/* Bank Mandiri Card */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="p-8 rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md flex flex-col justify-between"
-          >
-            <div>
-              <div className="flex items-center justify-between mb-6">
-                <span className="font-serif text-2xl font-black text-[#1E232A] tracking-wider">
-                  MANDIRI
+          <TiltCard className="h-full">
+            <div className="p-8 h-full rounded-3xl bg-[#FFFFFF] border border-[#C5A880]/30 shadow-md flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-6">
+                  <span className="font-serif text-2xl font-black text-[#1E232A] tracking-wider">
+                    MANDIRI
+                  </span>
+                  <CreditCard className="w-6 h-6 text-[#C5A880]" />
+                </div>
+
+                <span className="text-[11px] text-zinc-500 uppercase tracking-widest block mb-1">
+                  Nomor Rekening
                 </span>
-                <CreditCard className="w-6 h-6 text-[#C5A880]" />
+                <p className="font-mono text-xl sm:text-2xl font-bold text-[#1E232A] tracking-wider mb-2">
+                  137 00 1982 7461
+                </p>
+                <p className="text-xs text-zinc-600 font-medium">
+                  a.n. Anindya Larasati
+                </p>
               </div>
 
-              <span className="text-[11px] text-zinc-500 uppercase tracking-widest block mb-1">
-                Nomor Rekening
-              </span>
-              <p className="font-mono text-xl sm:text-2xl font-bold text-[#1E232A] tracking-wider mb-2">
-                137 00 1982 7461
-              </p>
-              <p className="text-xs text-zinc-600 font-medium">
-                a.n. Anindya Larasati
-              </p>
+              <button
+                type="button"
+                onClick={() => copyToClipboard("1370019827461", "mandiri")}
+                className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#F5F1E9] hover:bg-[#EADBC8]/60 text-[#1E232A] text-xs font-semibold tracking-wide border border-[#C5A880]/30 transition-all cursor-pointer"
+              >
+                {copiedKey === "mandiri" ? (
+                  <>
+                    <Check className="w-4 h-4 text-emerald-600" />
+                    <span className="text-emerald-700">Nomor Berhasil Disalin!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-4 h-4 text-[#C5A880]" />
+                    <span>Salin Nomor Rekening</span>
+                  </>
+                )}
+              </button>
             </div>
-
-            <button
-              type="button"
-              onClick={() => copyToClipboard("1370019827461", "mandiri")}
-              className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#F5F1E9] hover:bg-[#EADBC8]/60 text-[#1E232A] text-xs font-semibold tracking-wide border border-[#C5A880]/30 transition-all cursor-pointer"
-            >
-              {copiedKey === "mandiri" ? (
-                <>
-                  <Check className="w-4 h-4 text-emerald-600" />
-                  <span className="text-emerald-700">Nomor Berhasil Disalin!</span>
-                </>
-              ) : (
-                <>
-                  <Copy className="w-4 h-4 text-[#C5A880]" />
-                  <span>Salin Nomor Rekening</span>
-                </>
-              )}
-            </button>
-          </motion.div>
+          </TiltCard>
         </div>
 
         {/* Physical Gift Delivery Card */}
